@@ -1,4 +1,5 @@
+const Pool = artifacts.require("Pool");
 
 module.exports = function(deployer) {
-  deployer.deploy("");
+  deployer.deploy(Pool);
 };
